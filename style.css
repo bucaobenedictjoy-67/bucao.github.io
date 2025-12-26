@@ -936,34 +936,85 @@ h4 {
     }
 }
 
-
-/* ===============================
-   📱 TABLET FRIENDLY (tablets)
-=============================== */
+ 
 @media (max-width: 900px) {
 
+    /* Navbar */
     .navbar {
-        padding: 15px 25px;
+        padding: 14px 20px;
+        flex-wrap: wrap;
     }
 
+    .navbar ul {
+        gap: 18px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .navbar li a {
+        font-size: 15px;
+    }
+
+    /* Sections */
     .section {
-        padding: 50px 15px;
+        padding: 45px 18px;
     }
 
+    /* Home section */
+    .sectionhome {
+        padding: 110px 8% 50px;
+        gap: 35px;
+    }
+
+    .home-content h1 {
+        font-size: 38px;
+    }
+
+    .span1 {
+        font-size: 26px;
+    }
+
+    .image-container {
+        width: 220px;
+        height: 220px;
+    }
+
+    /* Education & Technical cards */
     .goku-row,
     .tech-row {
         gap: 20px;
     }
 
+    .goku-card,
+    .tech-card {
+        width: 260px;
+    }
+
+    /* Skills grid */
     .egoist6 {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    /* Projects */
+    .project-wrapper {
+        gap: 25px;
     }
 
     .project-img,
     .project-img2 {
-        max-width: 300px;
+        max-width: 320px;
+    }
+
+    h4 {
+        font-size: 26px;
+    }
+
+    /* Contact */
+    .turbo1 {
+        gap: 30px;
     }
 }
+
 
 
 
@@ -1012,5 +1063,6 @@ h4 {
             text-align: center;
 
         }
+
 
 
