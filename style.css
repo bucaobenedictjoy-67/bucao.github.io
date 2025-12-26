@@ -881,16 +881,22 @@ h4 {
 @media (max-width: 600px) {
 
     /* Navbar */
-    .navbar {
-        flex-direction: rows;
-        padding: 15px;
+     .navbar {
+        flex-direction: row;
+        padding: 12px 15px;
         gap: 10px;
+        flex-wrap: wrap;          
     }
 
     .navbar ul {
-        flex-direction: column;
-        gap: 15px;
-        text-align: center;
+        flex-direction: row;     
+        gap: 12px;
+        flex-wrap: wrap;          
+        width: 100%;
+    }
+
+    .navbar li a {
+        font-size: 14px;
     }
 
     /* Home section */
@@ -1002,3 +1008,4 @@ h4 {
             text-align: center;
 
         }
+
