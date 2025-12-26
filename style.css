@@ -900,8 +900,12 @@ h4 {
     }
 
     /* Home section */
+      .home-content {
+        margin-top: 80px;
+    }
+
     .home-content h1 {
-        font-size: 32px;
+        margin-top: 10px;
     }
 
     .span1 {
@@ -1008,4 +1012,5 @@ h4 {
             text-align: center;
 
         }
+
 
