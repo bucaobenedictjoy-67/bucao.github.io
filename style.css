@@ -882,7 +882,7 @@ h4 {
 
     /* Navbar */
     .navbar {
-        flex-direction: column;
+        flex-direction: rows;
         padding: 15px;
         gap: 10px;
     }
@@ -1000,4 +1000,5 @@ h4 {
         .content {
             padding: 60px;
             text-align: center;
+
         }
