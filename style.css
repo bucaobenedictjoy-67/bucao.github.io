@@ -1081,7 +1081,23 @@ h4 {
 
 
  
+@media (max-width: 600px) {
+    .toggle-container {
+        top: 80px;      
+        right: 15px;
+        z-index: 9999;  
+    }
 
+    .toggle-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .toggle-btn img {
+        width: 24px;
+        height: 24px;
+    }
+}
 
 
 
@@ -1140,4 +1156,5 @@ body.dark .egoist2 {
     max-width: 1000px;  
     margin: 60px auto;  
 }
+
 
