@@ -1,5 +1,4 @@
  
-
 :root {
     --bg-color: linear-gradient(
         180deg,
@@ -103,6 +102,7 @@ a {
     min-height: 100vh;
     text-align: center;
     gap: 20px;
+       
 }
 
 .home-img {
@@ -896,7 +896,7 @@ h4 {
 @media (max-width: 600px) {
 
     /* Navbar */
-     .navbar {
+    .navbar {
         flex-direction: row;
         padding: 12px 15px;
         gap: 10px;
@@ -915,7 +915,7 @@ h4 {
     }
 
     /* Home section */
-      .home-content {
+     .home-content {
         margin-top: 80px;
     }
 
@@ -950,8 +950,9 @@ h4 {
         max-width: 350px;
     }
 }
-
  
+
+
 @media (max-width: 900px) {
 
     /* Navbar */
@@ -1037,8 +1038,6 @@ h4 {
 
 
 
-
-
     .toggle-container {
             position: fixed;
             top: 80px;
@@ -1076,17 +1075,17 @@ h4 {
         .content {
             padding: 60px;
             text-align: center;
-
         }
 
 
 
 
+ 
 
 
 
 
-
+ 
 #about,
 #education,
 #goku-section,
@@ -1141,6 +1140,3 @@ body.dark .egoist2 {
     max-width: 1000px;  
     margin: 60px auto;  
 }
-
-
-
