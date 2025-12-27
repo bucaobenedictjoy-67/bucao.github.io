@@ -1081,9 +1081,11 @@ h4 {
  
 @media (max-width: 600px) {
     .toggle-container {
-         position: fixed;
-            top: 120px;
-            right: 30px;
+        position: fixed;
+        top: 120px;      
+        left: 15px;      
+        right: auto;      
+        z-index: 9999;   
     }
 
     .toggle-btn img {
@@ -1091,6 +1093,8 @@ h4 {
         height: 20px;
     }
 }
+
+
 
 
  
@@ -1151,6 +1155,7 @@ body.dark .egoist2 {
     max-width: 1000px;  
     margin: 60px auto;  
 }
+
 
 
 
