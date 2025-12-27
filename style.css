@@ -1042,7 +1042,7 @@ h4 {
             position: fixed;
             top: 120px;
             right: 15px;
-            z-index: 9999;
+             
         }
 
         /* ===== Icon Button ===== */
@@ -1078,6 +1078,19 @@ h4 {
             text-align: center;
         }
 
+ 
+@media (max-width: 600px) {
+    .toggle-container {
+         position: fixed;
+            top: 120px;
+            right: 30px;
+    }
+
+    .toggle-btn img {
+        width: 20px;
+        height: 20px;
+    }
+}
 
 
  
@@ -1138,6 +1151,7 @@ body.dark .egoist2 {
     max-width: 1000px;  
     margin: 60px auto;  
 }
+
 
 
 
