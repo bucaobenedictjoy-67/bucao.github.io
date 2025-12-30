@@ -1136,9 +1136,8 @@ body.dark .egoist2 {
     border-radius: 18px;
     padding: 60px 30px;
     
-    
-    width: 100%;
      
+    max-width: 1000px;   
     margin: 60px auto;  
 }
 
@@ -1215,4 +1214,5 @@ body.dark::before {
 
 
  
+
 
