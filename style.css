@@ -493,8 +493,7 @@ h2 {
     letter-spacing: 2px;
 }
 
-
-/* Uniform font for hobby cards text */
+ 
 .hobby-card p {
     margin-top: 10px;
     font-size: 16px;        
@@ -503,8 +502,7 @@ h2 {
     line-height: 1.5;        
     text-align: center;
 }
-
-/* Keep HOBBIES heading bold and red */
+ 
 h2 {
     font-size: 30px;
     color: #d10a0a;
@@ -517,8 +515,7 @@ h2 {
 
 
 
-
-/* ABOUT SECTION UNIFORMITY */
+ 
 .section.about p {
     font-size: 16px;        
     line-height: 1.7;       
@@ -533,14 +530,14 @@ h2 {
     margin-bottom: 60px;   
 }
 
-/* TECHNICAL INTERESTS SPACING */
+ 
 .tech-section {
     text-align: center;
     margin-top: 60px;
     margin-bottom: 60px;   
 }
 
-/* HOBBIES SECTION SPACING */
+ 
 .hobbies-section {
     display: flex;
     justify-content: center;
@@ -565,7 +562,7 @@ h2 {
     justify-content: center;
     gap: 25px;
     flex-wrap: wrap;
-    padding: 0 30px 60px; /* top padding removed */
+    padding: 0 30px 60px;  
     margin: 60px auto;
 }
 
@@ -705,10 +702,7 @@ h4 {
 
 
 
-
-
-
-/* ===== SECOND PROJECT IMAGE (UNIFORM STYLE) ===== */
+ 
 .image-container2 {
     margin-top: 25px;
     display: flex;
@@ -725,7 +719,7 @@ h4 {
     transition: 0.3s ease;
 }
 
-/* Hover effect (same vibe) */
+ 
 .project-img2:hover {
     transform: scale(1.05);
     box-shadow: 0 0 30px red;
@@ -796,8 +790,7 @@ h4 {
 
 
 
-
-/* CONTACT WRAPPER */
+ 
 .turbo1 {
     display: flex;
     gap: 40px;
@@ -1145,7 +1138,7 @@ body.dark .egoist2 {
     
     
     width: 100%;
-    max-width: 1000px;  
+     
     margin: 60px auto;  
 }
 
@@ -1222,3 +1215,4 @@ body.dark::before {
 
 
  
+
